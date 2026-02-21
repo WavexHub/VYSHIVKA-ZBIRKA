@@ -16,7 +16,7 @@
 Зі мною можна зв'язатися за допомогою діскорд та пошти:
 
 
-discrdwavex
-antonpicyk843@gamil.com
+discrdwavex,
+antonpicyk843@gmail.com
 
 Дякую за порозуміння. Слава Україні!
