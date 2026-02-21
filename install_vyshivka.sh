@@ -1,4 +1,5 @@
 #!/bin/bash 
+
 git pull origin main
 sudo xbps-install -uy xbps
 sudo xbps-install -Syu
