@@ -1,7 +1,40 @@
 #!/bin/bash
 
-# Зупиняти скрипт при будь-якій помилці
+# Зупиняти скрипт при помилках
 set -e
+
+# Очистити термінал перед виводом лого
+clear
+
+echo -e "\e[34m" # Робимо текст синім (в колір прапора або просто для стилю)
+cat << "EOF"
+MMMM                                                            MMMM
+MM      ____        _                                           MM
+MM     `Mb(        )d'  6MMMMMb\ `MM'       `MM'                MM
+MM      YM.       ,P  6M'       ` MM         MM                 MM
+MM      `Mb      d'   MM          MM         MM                 MM
+MM       YM.    ,P    YM.         MM         MM                 MM
+MM       `Mb    d'     YMMMMMb    MMMMMMMMMMMMM                 MM
+MM        YM.  ,P           `Mb   MM         MM                 MM
+MM        `Mb d'             MM   MM         MM                 MM
+MM         YM,P              MM   MM         MM                 MM
+MM         `MM'       L     ,M9   MM         MM                 MM
+MM          YP        MYMMMMM9   _MM_       _MM_                MM
+MM                                                              MM
+MM                                                              MM
+MMMM                                                            MMMM
+EOF
+echo -e "\e[0m" # Скидаємо колір до стандартного
+
+echo "--- Pidgotovka Vyshivki (Void-based OS) ---"
+echo "Слава Україні!"
+echo "-------------------------------------------------------"
+
+# Перевірка на root (щоб не забути sudo)
+if [ "$EUID" -ne 0 ]; then 
+  echo "Помилка: Будь ласка, запустіть скрипт через sudo!"
+  exit 1
+fi
 
 echo "--- Pidgotovka Vyshivki ---"
 
