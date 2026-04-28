@@ -8,21 +8,22 @@ clear
 
 echo -e "\e[34m" # Робимо текст синім (в колір прапора або просто для стилю)
 cat << "EOF"
-MMMM                                                            MMMM
-MM      ____        _                                           MM
-MM     `Mb(        )d'  6MMMMMb\ `MM'       `MM'                MM
-MM      YM.       ,P  6M'       ` MM         MM                 MM
-MM      `Mb      d'   MM          MM         MM                 MM
-MM       YM.    ,P    YM.         MM         MM                 MM
-MM       `Mb    d'     YMMMMMb    MMMMMMMMMMMMM                 MM
-MM        YM.  ,P           `Mb   MM         MM                 MM
-MM        `Mb d'             MM   MM         MM                 MM
-MM         YM,P              MM   MM         MM                 MM
-MM         `MM'       L     ,M9   MM         MM                 MM
-MM          YP        MYMMMMM9   _MM_       _MM_                MM
-MM                                                              MM
-MM                                                              MM
-MMMM                                                            MMMM
+                                                      
+                                                      
+MMMM       ____     ___  ____  ____    ____      MMMM 
+MM         `Mb(     )d' 6MMMMb\`MM'    `MM'        MM 
+MM          YM.     ,P 6M'    ` MM      MM         MM 
+MM          `Mb     d' MM       MM      MM         MM 
+MM           YM.   ,P  YM.      MM      MM         MM 
+MM           `Mb   d'   YMMMMb  MMMMMMMMMM         MM 
+MM            YM. ,P        `Mb MM      MM         MM 
+MM            `Mb d'         MM MM      MM         MM 
+MM             YM,P          MM MM      MM         MM 
+MM             `MM'    L    ,M9 MM      MM         MM 
+MM              YP     MYMMMM9 _MM_    _MM_        MM 
+MM                                                 MM 
+MM                                                 MM 
+MMMM                                             MMMM 
 EOF
 echo -e "\e[0m" # Скидаємо колір до стандартного
 
